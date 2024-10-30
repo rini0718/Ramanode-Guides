@@ -42,7 +42,7 @@ echo
 
 echo "Creating a Docker container for the BlockMesh CLI..."
 docker run -it --rm \
-    --name blockmesh-cli-container \
+    --name blockmesh-cli-container1 \
     -v $(pwd)/target/release:/app \
     -e EMAIL="$email" \
     -e PASSWORD="$password" \
